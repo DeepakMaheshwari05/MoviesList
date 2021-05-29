@@ -35,7 +35,7 @@ class MoviesListCell: UITableViewCell {
     // MARK: Private Methods
     private func bindViewModel() {
         self.lblTitle.text = viewModel?.title
-        self.lblRating.text = (self.lblRating.text ?? "") + (viewModel!.voteAverage ?? "")!  + " \(viewModel!.voteCount ?? ""))"
+        self.lblRating.text = "Rating :" + (viewModel!.voteAverage ?? "")!  + "(\(viewModel!.voteCount ?? ""))"
         self.lblRelease.text = viewModel?.releaseDate
 //        self.lblWebsite.text = viewModel?.websiteText
         // Create URL
