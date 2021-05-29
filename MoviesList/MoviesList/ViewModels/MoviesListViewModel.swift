@@ -25,7 +25,7 @@ extension MoviesListViewModel {
                 print(json)
                 var arrObj = [MoviesModel]()
                 for jsonObj in json {
-                    var obj = MoviesModel(title: jsonObj["title"] as? String, description: jsonObj["overview"] as? String, voteAverage: "\(jsonObj["vote_average"])" , imageUrl: jsonObj["poster_path"] as? String, releaseDate: jsonObj["release_date"] as? String, voteCount: "\(jsonObj["vote_count"])")
+                    var obj = MoviesModel(title: jsonObj["title"] as? String, description: jsonObj["overview"] as? String, voteAverage: "\(jsonObj["vote_average"] as! NSNumber)" , imageUrl: jsonObj["poster_path"] as? String, releaseDate: jsonObj["release_date"] as? String, voteCount: "\(jsonObj["vote_count"] as! Int)")
                     arrObj.append(obj)
                 }
                 self.arrList.value = arrObj.compactMap({ MoviesListCellViewModel.init(objUserModel: $0) })
