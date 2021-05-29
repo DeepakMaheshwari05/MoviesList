@@ -18,7 +18,6 @@
 		E89FB1202661F8050017EDAF /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FB1192661F8050017EDAF /* MoviesModel.swift */; };
 		E89FB1222661F8050017EDAF /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FB11D2661F8050017EDAF /* URL+Extensions.swift */; };
 		E89FB1252661F8760017EDAF /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = E89FB1242661F8760017EDAF /* movies.json */; };
-		E89FB1302661FFE50017EDAF /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FB12D2661FFE50017EDAF /* UserDetail.swift */; };
 		E89FB1312661FFE50017EDAF /* MoviesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FB12F2661FFE50017EDAF /* MoviesListCell.swift */; };
 		E89FB134266200310017EDAF /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FB133266200310017EDAF /* MoviesListViewModel.swift */; };
 		E89FB13A266200D20017EDAF /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FB139266200D20017EDAF /* Bindable.swift */; };
@@ -39,7 +38,6 @@
 		E89FB1192661F8050017EDAF /* MoviesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
 		E89FB11D2661F8050017EDAF /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		E89FB1242661F8760017EDAF /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
-		E89FB12D2661FFE50017EDAF /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
 		E89FB12F2661FFE50017EDAF /* MoviesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListCell.swift; sourceTree = "<group>"; };
 		E89FB133266200310017EDAF /* MoviesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
 		E89FB139266200D20017EDAF /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				E89FB11C2661F8050017EDAF /* Extensions */,
 				E89FB1162661F8050017EDAF /* Helpers */,
 				E89FB1182661F8050017EDAF /* Models */,
-				E89FB11A2661F8050017EDAF /* Services */,
 				E89FB1142661F8050017EDAF /* ViewModels */,
 				E89FB10E2661F7EC0017EDAF /* AppDelegate */,
 				E89FB0FF2661F7A40017EDAF /* Main.storyboard */,
@@ -128,13 +125,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E89FB11A2661F8050017EDAF /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		E89FB11C2661F8050017EDAF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +145,6 @@
 		E89FB12C2661FFE50017EDAF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E89FB12D2661FFE50017EDAF /* UserDetail.swift */,
 				E89FB12E2661FFE50017EDAF /* TableCell */,
 			);
 			path = View;
@@ -248,7 +237,6 @@
 				E89FB13A266200D20017EDAF /* Bindable.swift in Sources */,
 				E89FB11E2661F8050017EDAF /* MoviesListCellViewModel.swift in Sources */,
 				E89FB1222661F8050017EDAF /* URL+Extensions.swift in Sources */,
-				E89FB1302661FFE50017EDAF /* UserDetail.swift in Sources */,
 				E89FB0FE2661F7A40017EDAF /* MoviesListVC.swift in Sources */,
 				E89FB1122661F7EC0017EDAF /* SceneDelegate.swift in Sources */,
 				E89FB134266200310017EDAF /* MoviesListViewModel.swift in Sources */,
